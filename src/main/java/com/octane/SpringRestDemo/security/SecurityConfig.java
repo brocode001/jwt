@@ -25,7 +25,7 @@ import com.nimbusds.jose.jwk.RSAKey;
 import com.nimbusds.jose.jwk.source.ImmutableJWKSet;
 import com.nimbusds.jose.jwk.source.JWKSource;
 import com.nimbusds.jose.proc.SecurityContext;
-import com.octane.SpringRestDemo.swagger.RsaKeyProperties;
+import com.octane.SpringRestDemo.config.RsaKeyProperties;
 
 @Configuration
 @EnableWebSecurity

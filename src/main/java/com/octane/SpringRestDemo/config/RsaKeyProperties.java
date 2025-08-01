@@ -1,4 +1,4 @@
-package com.octane.SpringRestDemo.swagger;
+package com.octane.SpringRestDemo.config;
 
 import java.security.interfaces.RSAPrivateKey;
 import java.security.interfaces.RSAPublicKey;
