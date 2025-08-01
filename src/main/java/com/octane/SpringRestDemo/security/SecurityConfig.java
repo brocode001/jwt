@@ -89,7 +89,6 @@ public class SecurityConfig {
         .sessionManagement(session -> session
             .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
         );
-        // TODO: remove these after upgrading the DB from H2 infile DB
         http.csrf(csrf -> csrf.disable());
         http.headers(headers -> headers.disable());
 
